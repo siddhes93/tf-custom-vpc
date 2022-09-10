@@ -2,6 +2,14 @@
 
 This Terraform file is used to created 1 public subnet , 2 private subnet for custom vpc CIDR. 
 
+clone this repo in your local. execute the commands in a order.
+
+terraform init
+terraform validate
+terraform plan
+terraform apply
+terraform destroy --Note: This command will completely delete the resources that are created using Terraform.
+
 Below is the set of logs returned during execution aws resource creation. 
 
 [ec2-user@ip-172-31-94-121 tf-custom-vpc]$ terraform init
